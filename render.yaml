@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: riadscircle
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: "/"
+    repo: https://github.com/riad00956/Php-rah
+    branch: main
+    envVars: {}
